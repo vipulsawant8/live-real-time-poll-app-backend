@@ -1,0 +1,35 @@
+const ERRORS = {
+	// AUTHENTICATION
+	INVALID_CREDENTIALS: "Invalid email or password",
+	UNAUTHORIZED: "Unauthorized access",
+	TOKEN_EXPIRED: "Token expired, please login again",
+	TOKEN_INVALID: "Invalid token",
+	TOKEN_MISSING: "Token missing",
+	NOT_ALLOWED: "You do not have permission to perform this action",
+
+	// USER
+	USER_NOT_FOUND: "User not found",
+	EMAIL_ALREADY_EXISTS: "Email is already registered",
+
+	// POLL
+	POLL_NOT_FOUND: "Poll not found",
+	POLL_DATA_REQUIRED: "Poll title and atleast 2 options are required",
+	POLL_ALREADY_EXISTS: "Poll with this title already exists",
+	POLL_CLOSED: "Poll is closed for voting",
+	OPTION_NOT_FOUND: "Poll option not found",
+	POLL_CLOSE_ACTION_FORBIDDEN: "Only the poll creator can close the poll",
+
+	// VOTE
+	VOTE_ALREADY_CAST: "You have already voted in this poll",
+
+	// GENERAL
+	INVALID_ID: "Invalid ID",
+	VALIDATION_FAILED: "Validation failed",
+	BAD_REQUEST: "Bad request",
+	INTERNAL_ERROR: "Internal server error",
+	MISSING_FIELDS: "Required fields missing",
+	DUPLICATE_DATA: "Duplicate data exists",
+	INVALID_JSON: "Invalid JSON payload",
+};
+
+export default ERRORS;
