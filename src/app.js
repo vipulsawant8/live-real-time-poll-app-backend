@@ -13,7 +13,7 @@ const app = e();
 
 app.disable('x-powered-by');
 
-console.log('origins :', process.env);
+// console.log('origins :', process.env);
 
 const allowedOrigins = process.env.CORS_ORIGIN.split(',');
 console.log("Allowed CORS Origins :", allowedOrigins);
