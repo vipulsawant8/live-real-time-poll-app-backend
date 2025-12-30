@@ -1,5 +1,5 @@
 {
-  "name": "live-real-time-poll-app-backend",
+  "name": "live-polls-backend",
   "version": "1.0.0",
   "main": "src/server.js",
   "type": "module",
